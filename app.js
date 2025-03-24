@@ -5,13 +5,13 @@
 //paragrafo.innerHTML = 'Escolha um número ente 1 e 10';
 
 let ListaDeNmrs = [];
-let NumeroMax = 10;
+let NumeroMax = 100;
 let numeroSecreto = gerarNumeroAleat();
 let tentativas = 1;
 
 function exibirMsgInicial() {
     ExibirTextoNaTela('h1', 'Jogo do número secreto');
-    ExibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    ExibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 exibirMsgInicial();
